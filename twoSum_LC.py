@@ -3,7 +3,7 @@ system('clear')
 from functools import reduce
 
 
-class Solution(object):         #
+class Solution(object):         #   Bu funksiya LeetCode da bajarilgan. Unda qavslar to'g'ri ochilganligin tekshiradi
     def isValid(self, s):
         stack = []
 
@@ -30,7 +30,7 @@ print(obj.isValid("(]"))
 print(obj.isValid("([])"))
 
 
-class Solution(object):
+class Solution(object):         #   Bu Funksiyada list elementlari ichidan (x > n/2) shartiga javob beradigan elementni oladi
     def majorityElement(self, nums):
 
         nums.sort()
